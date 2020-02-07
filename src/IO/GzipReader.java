@@ -1,3 +1,12 @@
+/**
+ * GzipReader.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ *
+ * @description This is a utility class that is responsible for processing gzip files
+ * of imdb and call insertion utilty methods.*/
 package IO;
 
 import DB.Insertion;
@@ -308,4 +317,4 @@ public final class GzipReader {
         DB.Insertion.insertAkas(names);
     }
 
-}
+} //GzipReader

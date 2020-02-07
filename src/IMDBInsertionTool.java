@@ -1,17 +1,15 @@
-import DB.Insertion;
-import Entities.Director;
-import Entities.Name;
-import Entities.Title;
-import Entities.Writer;
+/**
+ * IMDBInsertionTool.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ *
+ * @description This is the question 4 of assignment 1. The fileNames can be editted to
+ * provide correct paths.*/
 import IO.GzipReader;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.zip.GZIPInputStream;
-
 public class IMDBInsertionTool {
-
 
     public static void main(String[] args) {
         String titleFile = "title.basics.tsv.gz";
@@ -24,17 +22,18 @@ public class IMDBInsertionTool {
 
         GzipReader.processTitleFile(titleFile);
         System.out.println("Dumped titles into db!");
-        GzipReader.processNameFile(nameFile);
-        System.out.println("Dumped names into db!");
-        GzipReader.processAkaFile(akaFile);
-        System.out.println("Dumped akas into db!");
-        GzipReader.processCrewFile(crewFile);
-        System.out.println("Dumped crew into db!");
-        GzipReader.processEpisodeFile(episodeFile);
-        System.out.println("Dumped episodes into db!");
-        GzipReader.processPrincipalFile(principalFile);
-        System.out.println("Dumped principals into db!");
         GzipReader.processRatingFile(ratingFile);
         System.out.println("Dumped ratings into db!");
+        GzipReader.processEpisodeFile(episodeFile);
+        System.out.println("Dumped episodes into db!");
+        GzipReader.processAkaFile(akaFile);
+        System.out.println("Dumped akas into db!");
+        GzipReader.processNameFile(nameFile);
+        System.out.println("Dumped names into db!");
+        GzipReader.processCrewFile(crewFile);
+        System.out.println("Dumped crew into db!");
+        GzipReader.processPrincipalFile(principalFile);
+        System.out.println("Dumped principals into db!");
+
     }
-}
+} //IMDBInsertionTool

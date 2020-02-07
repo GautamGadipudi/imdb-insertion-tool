@@ -1,3 +1,12 @@
+/**
+ * Insertion.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ *
+ * @description This is a utility class that is responsible for insertion of
+ * different entities of imdb.*/
 package DB;
 
 import Entities.*;
@@ -259,4 +268,4 @@ public final class Insertion {
             e.printStackTrace();
         }
     }
-}
+} //Insertion

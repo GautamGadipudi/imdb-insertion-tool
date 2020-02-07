@@ -1,3 +1,10 @@
+/**
+ * Title.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Title {
@@ -84,4 +91,4 @@ public class Title {
     public void setGenres(String genres) {
         this.genres = genres;
     }
-}
+} //Title

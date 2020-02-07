@@ -1,3 +1,10 @@
+/**
+ * Principal.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Principal {
@@ -57,4 +64,4 @@ public class Principal {
     public void setCharacters(String characters) {
         this.characters = characters;
     }
-}
+} //Principal

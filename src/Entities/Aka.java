@@ -1,3 +1,10 @@
+/**
+ * Aka.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Aka {
@@ -75,4 +82,4 @@ public class Aka {
     public void setOriginalTitle(boolean originalTitle) {
         isOriginalTitle = originalTitle;
     }
-}
+} //Aka

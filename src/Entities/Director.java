@@ -1,3 +1,10 @@
+/**
+ * Director.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Director {
@@ -21,4 +28,4 @@ public class Director {
     public void setNameId(int nameId) {
         this.nameId = nameId;
     }
-}
+} //Director

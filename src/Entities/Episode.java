@@ -1,3 +1,10 @@
+/**
+ * Episode.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Episode {
@@ -39,4 +46,4 @@ public class Episode {
     public void setTitleId(int titleId) {
         this.titleId = titleId;
     }
-}
+} //Episode

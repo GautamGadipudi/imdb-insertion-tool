@@ -1,3 +1,10 @@
+/**
+ * Name.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Name {
@@ -41,4 +48,4 @@ public class Name {
     public void setDeathYear(int deathYear) {
         this.deathYear = deathYear;
     }
-}
+} //Name

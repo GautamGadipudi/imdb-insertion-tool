@@ -1,3 +1,13 @@
+/**
+ * Connection.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ *
+ * @description This is a loop around static class that is responsible for connection
+ * to the db.*/
+
 package DB;
 
 import java.sql.DriverManager;

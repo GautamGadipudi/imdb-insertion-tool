@@ -1,3 +1,10 @@
+/**
+ * Rating.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Rating {
@@ -30,4 +37,4 @@ public class Rating {
     public void setVoteCount(int voteCount) {
         this.voteCount = voteCount;
     }
-}
+} //Rating

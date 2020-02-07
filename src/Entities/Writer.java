@@ -1,3 +1,10 @@
+/**
+ * Writer.java
+ *
+ * @author Gautam Gadipudi
+ *
+ * @id gg7148
+ */
 package Entities;
 
 public class Writer {
@@ -21,4 +28,4 @@ public class Writer {
     public void setNameId(int nameId) {
         this.nameId = nameId;
     }
-}
+} //Writer
